@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="ПР_19.css"/>
+</head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Навбар</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Хом</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Линк</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Дропдаун
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.google.com/search?q=%D0%B4%D1%80%D0%B8%D0%B7%D1%8E%D0%BB%D1%8F&newwindow=1&sca_esv=470031d26dfc1cdc&udm=2&biw=1920&bih=919&ei=A4vZZuvONdeswPAPiunWqQg&ved=0ahUKEwir3M-Lz6uIAxVXFhAIHYq0NYUQ4dUDCBA&uact=5&oq=%D0%B4%D1%80%D0%B8%D0%B7%D1%8E%D0%BB%D1%8F&gs_lp=Egxnd3Mtd2l6LXNlcnAiDtC00YDQuNC30Y7Qu9GPSIMvULoIWP4rcAN4AJABAJgBRKAB5QOqAQE5uAEDyAEA-AEBmAIGoALaAqgCAMICBRAAGIAEwgIIEAAYgAQYsQPCAgsQABiABBixAxiDAcICDhAAGIAEGLEDGIMBGIoFmAMCkgcBNqAH_R8&sclient=gws-wiz-serp#vhid=_LiRJ3V4caNoRM&vssid=mosaic">Action</a></li>
+                      <li><a class="dropdown-item" href="https://www.google.com/search?q=%D0%BC%D0%B8%D1%81%D1%82%D0%B5%D1%80+%D0%B1%D0%B8%D1%81%D1%82&newwindow=1&sca_esv=470031d26dfc1cdc&udm=2&biw=1920&bih=919&ei=QJLZZqrAOaO6wPAP28acQA&ved=0ahUKEwiq4J3_1auIAxUjHRAIHVsjBwgQ4dUDCBA&uact=5&oq=%D0%BC%D0%B8%D1%81%D1%82%D0%B5%D1%80+%D0%B1%D0%B8%D1%81%D1%82&gs_lp=Egxnd3Mtd2l6LXNlcnAiFdC80LjRgdGC0LXRgCDQsdC40YHRgjILEAAYgAQYsQMYgwEyBRAAGIAEMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYSPROUMQYWJE-cAh4AJABAJgBOKAB2gaqAQIxN7gBA8gBAPgBAZgCFqACwgeoAgDCAggQABiABBixA8ICCRAAGIAEGAEYCsICBBAAGB7CAgsQABiABBgBGBgYCsICBBAAGAPCAg4QABiABBixAxiDARiKBcICBhAAGAgYHpgDApIHAjIyoAeUaQ&sclient=gws-wiz-serp#vhid=6cCZmcFwjJ48tM&vssid=mosaic">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://www.google.com/search?q=%D0%BC%D0%B5%D0%B3%D0%B0%D0%BC%D0%BE%D0%B7%D0%B3&newwindow=1&sca_esv=470031d26dfc1cdc&udm=2&biw=1920&bih=919&ei=b5LZZvORE82F1fIPlP67kQ0&ved=0ahUKEwizhayV1quIAxXNQlUIHRT_LtIQ4dUDCBA&uact=5&oq=%D0%BC%D0%B5%D0%B3%D0%B0%D0%BC%D0%BE%D0%B7%D0%B3&gs_lp=Egxnd3Mtd2l6LXNlcnAiENC80LXQs9Cw0LzQvtC30LMyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESLMbUABY2xdwAHgAkAEAmAE8oAGfA6oBATi4AQPIAQD4AQGYAgigAs0DwgILEAAYgAQYsQMYgwHCAgoQABiABBhDGIoFwgINEAAYgAQYsQMYQxiKBcICBBAAGAOYAwCSBwE4oAeZLA&sclient=gws-wiz-serp#vhid=o4ifYgDdsxKOJM&vssid=mosaic">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Дизабблед</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <h1 align="center">Добро пожаловать в котроль качества овощей Южной Кореи-Korean Vegetables</h1>
+    <h4 align="center">Наша компания является одной из самых распространённых и популярных среди всех известных на данный момент компаний в стране.<br>
+    В нашей организации у вас есть уникальная возможность приобрести патент на соответсвие распространённых стандартов всей страны.<br>
+Именно поэтому 90 процентов всех специалистов по изучению качества и способам выращивания овощей доверяют нам!</h4>
+    <section>
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img src="https://s3.stroi-news.ru/img/testovie-kartinki-dlya-monitora-2.jpg" width="500" height="auto">
+          </div>
+          <div class="col">
+            <img src="https://s3.stroi-news.ru/img/testovie-kartinki-dlya-monitora-2.jpg" width="500" height="auto">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="https://s3.stroi-news.ru/img/testovie-kartinki-dlya-monitora-2.jpg" width="500" height="auto">
+          </div>
+          <div class="col">
+            <img src="https://s3.stroi-news.ru/img/testovie-kartinki-dlya-monitora-2.jpg" width="500" height="auto">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://rtc.ru/media/images/Microblog/2018-ovoschi.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://rtc.ru/media/images/Microblog/2018-ovoschi.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://rtc.ru/media/images/Microblog/2018-ovoschi.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://image.made-in-china.com/202f0j00LGIfZQVFYnqR/Beetroot-Powder-Dehydrated-Vegetables-Air-Dried-Purple-Top-Quality-Halal-Certified.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Корнеплодыши</h5>
+                          <p class="card-text">Вкусные</p>
+                          <a href="#" class="btn btn-primary">Идите к нам</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://image.made-in-china.com/202f0j00LGIfZQVFYnqR/Beetroot-Powder-Dehydrated-Vegetables-Air-Dried-Purple-Top-Quality-Halal-Certified.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Корнеплодыши</h5>
+                          <p class="card-text">Вкусные</p>
+                          <a href="#" class="btn btn-primary">Идите к нам</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://image.made-in-china.com/202f0j00LGIfZQVFYnqR/Beetroot-Powder-Dehydrated-Vegetables-Air-Dried-Purple-Top-Quality-Halal-Certified.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Корнеплодыши</h5>
+                          <p class="card-text">Вкусные</p>
+                          <a href="#" class="btn btn-primary">Идите к нам</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://image.made-in-china.com/202f0j00LGIfZQVFYnqR/Beetroot-Powder-Dehydrated-Vegetables-Air-Dried-Purple-Top-Quality-Halal-Certified.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Корнеплодыши</h5>
+                          <p class="card-text">Вкусные</p>
+                          <a href="#" class="btn btn-primary">Идите к нам</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <footer>
+          <h1>Для оказания помощи нащим корнеплодыщам вам нужно заполнить след формы:</h1>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><h3>Емайл</h3></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ну здравстуйте">
+          </div>
+          <div class="mb-3">
+            <for="exampleFormControlInput1" class="form-label"><h3>Пароль</h3></label>
+            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="неверный">
+          </div>
+          <button>Отправить</button>
+          <div><h4>Адрес: ул Подвальная дом 112<br>Время работы: с 8 утра до конца жизни<br>Телефон: 111-222-333-444-555<br>Емайл: doctorpodvalishiegodeti@.com</footer></h4></div>
+        </footer>
+  </body>
+</html>
